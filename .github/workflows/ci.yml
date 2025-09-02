@@ -1,0 +1,25 @@
+name: ci
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - name: Install
+        run: |
+          uv sync --all-extras --dev
+      - name: Lint
+        run: |
+          uv run ruff check .
+          uv run mypy src
+      - name: Tests
+        run: |
+          uv run pytest -q --maxfail=1 --disable-warnings
+

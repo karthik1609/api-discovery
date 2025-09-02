@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: api-discovery
+Version: 0.1.0
+Summary: Add your description here
+Author-email: karthik r <karthik.ephy@gmail.com>
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp>=3.12.15
+Requires-Dist: beautifulsoup4>=4.13.5
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: jsonschema>=4.25.1
+Requires-Dist: lxml>=6.0.1
+Requires-Dist: openapi-spec-validator>=0.7.2
+Requires-Dist: pydantic>=2.11.7
+Requires-Dist: pydantic-settings>=2.10.1
+Requires-Dist: pyyaml>=6.0.2
+Requires-Dist: requests-cache>=1.2.1
+Requires-Dist: rich>=14.1.0
+Requires-Dist: tenacity>=9.1.2
+Requires-Dist: typer>=0.17.3
+Requires-Dist: xmltodict>=0.14.2
+Requires-Dist: yarl>=1.20.1
+Provides-Extra: headless
+Requires-Dist: playwright>=1.48.0; extra == "headless"
+
+Automated OpenAPI spec generation for ServiceNow, Salesforce, and Pega.
+
+Quickstart
+
+1) Install
+
+```
+uv sync --all-extras --dev
+```
+
+2) Discover and synthesize ServiceNow (P0)
+
+```
+uv run api-discovery discover-and-synthesize servicenow \
+  --base-url https://YOUR_INSTANCE.service-now.com \
+  --username $SERVICENOW_USERNAME \
+  --password $SERVICENOW_PASSWORD \
+  --out openapi_specs/servicenow_generated.json
+```
+
+3) Validate spec
+
+```
+uv run api-discovery validate-spec --path openapi_specs/servicenow_generated.json
+```
+
+Status tracker
+
+The state file at `.state/servicenow/state.json` tracks known/unknown resources, verification status, and evidence.
+

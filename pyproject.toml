@@ -1,0 +1,58 @@
+[project]
+name = "api-discovery"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "karthik r", email = "karthik.ephy@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "beautifulsoup4>=4.13.5",
+    "httpx>=0.28.1",
+    "jsonschema>=4.25.1",
+    "lxml>=6.0.1",
+    "openapi-spec-validator>=0.7.2",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "pyyaml>=6.0.2",
+    "requests-cache>=1.2.1",
+    "rich>=14.1.0",
+    "tenacity>=9.1.2",
+    "typer>=0.17.3",
+    "xmltodict>=0.14.2",
+    "yarl>=1.20.1",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.17.1",
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
+    "ruff>=0.12.11",
+    "types-pyyaml>=6.0.12.20250822",
+    "types-requests>=2.32.4.20250809",
+]
+
+[project.optional-dependencies]
+headless = [
+    "playwright>=1.48.0",
+]
+
+[project.scripts]
+api-discovery = "api_discovery.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["api_discovery*"]
+
+[tool.setuptools.package-data]
+api_discovery = ["py.typed"]
