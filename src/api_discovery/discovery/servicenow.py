@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Dict, Iterable, List, Tuple
+from typing import Dict, Iterable, List, Tuple, Set
 import re
 from bs4 import BeautifulSoup
 
@@ -62,18 +62,68 @@ def _extract_select_options(html: str, label_keywords: List[str]) -> List[str]:
 
 
 def list_namespaces(client: HTTPClient) -> List[str]:
+    # Metadata-first via sys tables; fallback to GUI parsing
+    try:
+        ns: Set[str] = set()
+        # Scripted REST APIs
+        resp = client.get(
+            "/api/now/table/sys_ws_definition",
+            params={"sysparm_fields": "namespace,base_path,name", "sysparm_limit": 10000},
+        )
+        for row in resp.json().get("result", []) or []:
+            if row.get("namespace"):
+                ns.add(str(row["namespace"]))
+            if row.get("base_path"):
+                # try /api/{ns}/{api}
+                m = re.search(r"/api/([^/]+)/", str(row["base_path"]))
+                if m:
+                    ns.add(m.group(1))
+        # Versions may include in_url like /api/{ns}/{api}/{ver}
+        resp2 = client.get(
+            "/api/now/table/sys_ws_version",
+            params={"sysparm_fields": "in_url", "sysparm_limit": 10000},
+        )
+        for row in resp2.json().get("result", []) or []:
+            m = re.search(r"/api/([^/]+)/", str(row.get("in_url") or ""))
+            if m:
+                ns.add(m.group(1))
+        if ns:
+            ns.add("now")  # always include Now platform namespace
+            return sorted(ns)
+    except Exception:
+        pass
+    # Fallback: try parsing explorer HTML as last resort
     html = _fetch_explorer_html(client)
     options = _extract_select_options(html, ["namespace"]) or []
-    # Normalize and de-dup
     uniq: List[str] = []
     for v in options:
         if v and v not in uniq and v.lower() not in {"namespace", "select"}:
             uniq.append(v)
-    # Fallback include 'now' if nothing found
     return uniq or ["now"]
 
 
 def list_api_namespaces(client: HTTPClient, namespace: str) -> List[str]:
+    # Metadata-first: sys_ws_definition filtered by namespace from field/base_path/in_url
+    try:
+        defs = client.get(
+            "/api/now/table/sys_ws_definition",
+            params={"sysparm_fields": "sys_id,name,namespace,base_path", "sysparm_limit": 10000},
+        ).json().get("result", []) or []
+        names: Set[str] = set()
+        for d in defs:
+            ns = str(d.get("namespace") or "")
+            if ns:
+                if ns == namespace:
+                    names.add(str(d.get("name")))
+                    continue
+            bp = str(d.get("base_path") or "")
+            m = re.match(r"/api/([^/]+)/([^/]+)/?", bp)
+            if m and m.group(1) == namespace:
+                names.add(str(d.get("name")))
+        if names:
+            return sorted(names)
+    except Exception:
+        pass
     html = _fetch_explorer_html(client)
     apis = _extract_select_options(html, ["api name", "api"]) or []
     cleaned: List[str] = []
@@ -84,6 +134,36 @@ def list_api_namespaces(client: HTTPClient, namespace: str) -> List[str]:
 
 
 def list_api_versions(client: HTTPClient, namespace: str, api_name: str) -> List[str]:
+    # Metadata-first: resolve API definitions, then list sys_ws_version for those definitions
+    try:
+        defs = client.get(
+            "/api/now/table/sys_ws_definition",
+            params={"sysparm_fields": "sys_id,name,namespace,base_path", "sysparm_limit": 10000},
+        ).json().get("result", []) or []
+        def_ids: List[str] = []
+        for d in defs:
+            name = str(d.get("name") or "")
+            ns = str(d.get("namespace") or "")
+            if name == api_name and (ns == namespace or (re.match(r"/api/([^/]+)/", str(d.get("base_path") or "")) and re.match(r"/api/([^/]+)/", str(d.get("base_path") or "")).group(1) == namespace)):
+                def_ids.append(str(d.get("sys_id")))
+        if def_ids:
+            q = 'web_serviceIN' + ','.join(def_ids)
+            vers = client.get(
+                "/api/now/table/sys_ws_version",
+                params={"sysparm_query": q, "sysparm_fields": "version,in_url", "sysparm_limit": 10000},
+            ).json().get("result", []) or []
+            vals: Set[str] = set()
+            for v in vers:
+                if v.get("version"):
+                    vals.add(str(v["version"]))
+                elif v.get("in_url"):
+                    m = re.match(r"/api/[^/]+/[^/]+/([^/]+)", str(v["in_url"]))
+                    if m:
+                        vals.add(m.group(1))
+            if vals:
+                return sorted(vals)
+    except Exception:
+        pass
     html = _fetch_explorer_html(client)
     versions = _extract_select_options(html, ["version", "api version"]) or []
     cleaned: List[str] = []

@@ -164,6 +164,7 @@ def sn_list_namespaces(
     password: Optional[str] = typer.Option(None),
     oauth_token: Optional[str] = typer.Option(None),
     headless: bool = typer.Option(False, help="Use headless browser to enumerate dynamically rendered options"),
+    debug_dir: Optional[str] = typer.Option(None, help="Write HTML/screenshot when nothing is found"),
 ) -> None:
     sn_kwargs: dict[str, object] = {
         "base_url": base_url or os.getenv("API_DISCOVERY_SERVICENOW_BASE_URL", "")
@@ -194,15 +195,21 @@ def sn_list_namespaces(
             import asyncio
             ns, _, _ = asyncio.run(
                 discover_catalog_via_browser(
-                    base_url=settings.base_url, username=settings.username, password=settings.password, oauth_token=settings.oauth_token
+                    base_url=settings.base_url, username=settings.username, password=settings.password, oauth_token=settings.oauth_token, debug_dir=debug_dir
                 )
             )
-            for n in ns:
-                print(n)
+            if not ns:
+                print("No namespaces found")
+            else:
+                for n in ns:
+                    print(n)
         else:
             namespaces = list_namespaces(client)
-            for n in namespaces:
-                print(n)
+            if not namespaces:
+                print("No namespaces found")
+            else:
+                for n in namespaces:
+                    print(n)
 
 
 @sn_app.command("list-apis")
@@ -213,6 +220,7 @@ def sn_list_apis(
     password: Optional[str] = typer.Option(None),
     oauth_token: Optional[str] = typer.Option(None),
     headless: bool = typer.Option(False, help="Use headless browser to enumerate dynamically rendered options"),
+    debug_dir: Optional[str] = typer.Option(None, help="Write HTML/screenshot when nothing is found"),
 ) -> None:
     sn_kwargs: dict[str, object] = {
         "base_url": base_url or os.getenv("API_DISCOVERY_SERVICENOW_BASE_URL", "")
@@ -242,15 +250,22 @@ def sn_list_apis(
             import asyncio
             _, ns_to_apis, _ = asyncio.run(
                 discover_catalog_via_browser(
-                    base_url=settings.base_url, username=settings.username, password=settings.password, oauth_token=settings.oauth_token
+                    base_url=settings.base_url, username=settings.username, password=settings.password, oauth_token=settings.oauth_token, debug_dir=debug_dir
                 )
             )
-            for a in ns_to_apis.get(namespace, []):
-                print(a)
+            apis = ns_to_apis.get(namespace, [])
+            if not apis:
+                print("No APIs found for namespace")
+            else:
+                for a in apis:
+                    print(a)
         else:
             apis = list_api_namespaces(client, namespace)
-            for a in apis:
-                print(a)
+            if not apis:
+                print("No APIs found for namespace")
+            else:
+                for a in apis:
+                    print(a)
 
 
 @sn_app.command("list-versions")
@@ -262,6 +277,7 @@ def sn_list_versions(
     password: Optional[str] = typer.Option(None),
     oauth_token: Optional[str] = typer.Option(None),
     headless: bool = typer.Option(False, help="Use headless browser to enumerate dynamically rendered options"),
+    debug_dir: Optional[str] = typer.Option(None, help="Write HTML/screenshot when nothing is found"),
 ) -> None:
     sn_kwargs: dict[str, object] = {
         "base_url": base_url or os.getenv("API_DISCOVERY_SERVICENOW_BASE_URL", "")
@@ -291,15 +307,22 @@ def sn_list_versions(
             import asyncio
             _, _, api_versions = asyncio.run(
                 discover_catalog_via_browser(
-                    base_url=settings.base_url, username=settings.username, password=settings.password, oauth_token=settings.oauth_token
+                    base_url=settings.base_url, username=settings.username, password=settings.password, oauth_token=settings.oauth_token, debug_dir=debug_dir
                 )
             )
-            for v in api_versions.get((namespace, api_name), []):
-                print(v)
+            versions = api_versions.get((namespace, api_name), [])
+            if not versions:
+                print("No versions found for API")
+            else:
+                for v in versions:
+                    print(v)
         else:
             versions = list_api_versions(client, namespace, api_name)
-            for v in versions:
-                print(v)
+            if not versions:
+                print("No versions found for API")
+            else:
+                for v in versions:
+                    print(v)
 
 
 @sn_app.command("export-spec")

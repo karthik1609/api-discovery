@@ -1,0 +1,3154 @@
+{
+  "global": {
+    "namespace": "global",
+    "namespace_display": "Global",
+    "apis": {
+      "0456ae8567300300a0228c7942415a7c": {
+        "api_sys_id": "0456ae8567300300a0228c7942415a7c",
+        "api_name": "Conversation Server Preview",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "0456ae8567300300a0228c7942415a7c",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "0472746e0b2332005775aabcb4673a25": {
+        "api_sys_id": "0472746e0b2332005775aabcb4673a25",
+        "api_name": "Change Request Calendar (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "0472746e0b2332005775aabcb4673a25",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "0b60fc3b77342110fe35665d6a5a99ea": {
+        "api_sys_id": "0b60fc3b77342110fe35665d6a5a99ea",
+        "api_name": "PAR Migrate Classic Dashboard Layout",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "0b60fc3b77342110fe35665d6a5a99ea",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "11920c063b1003001298874064efc45a": {
+        "api_sys_id": "11920c063b1003001298874064efc45a",
+        "api_name": "CMDB UI API (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "11920c063b1003001298874064efc45a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "184a0d329fb222002920bde8132e7062": {
+        "api_sys_id": "184a0d329fb222002920bde8132e7062",
+        "api_name": "SLA (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "184a0d329fb222002920bde8132e7062",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "1e8a07b05b03020009b8c7ad31f91a84": {
+        "api_sys_id": "1e8a07b05b03020009b8c7ad31f91a84",
+        "api_name": "Service Portal Designer",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "1e8a07b05b03020009b8c7ad31f91a84",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "1e8e17b0b7032300ee0d3177ee11a9d1": {
+        "api_sys_id": "1e8e17b0b7032300ee0d3177ee11a9d1",
+        "api_name": "Export Query",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "1e8e17b0b7032300ee0d3177ee11a9d1",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "1fecd1c1c71131106766a7ea1dc2603d": {
+        "api_sys_id": "1fecd1c1c71131106766a7ea1dc2603d",
+        "api_name": "Check Plugin Installation",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "1fecd1c1c71131106766a7ea1dc2603d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "238532c0c3832010ce53bb62ef40dd05": {
+        "api_sys_id": "238532c0c3832010ce53bb62ef40dd05",
+        "api_name": "SG Custom Map",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "238532c0c3832010ce53bb62ef40dd05",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "2405194d87e73200b38c0f4c59cb0b6f": {
+        "api_sys_id": "2405194d87e73200b38c0f4c59cb0b6f",
+        "api_name": "Guided Tours",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "2405194d87e73200b38c0f4c59cb0b6f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "2b03f84e5f1323006e619c4f2f73137f": {
+        "api_sys_id": "2b03f84e5f1323006e619c4f2f73137f",
+        "api_name": "Slack team name",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "2b03f84e5f1323006e619c4f2f73137f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "2b59398967100300a52d79b457415a62": {
+        "api_sys_id": "2b59398967100300a52d79b457415a62",
+        "api_name": "Global FIle Management",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "2b59398967100300a52d79b457415a62",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "2ef399829f523200db315ecec32e7009": {
+        "api_sys_id": "2ef399829f523200db315ecec32e7009",
+        "api_name": "sncEntryPointSelector",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "2ef399829f523200db315ecec32e7009",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "313640c4b73100108e2aee90ee11a9b5": {
+        "api_sys_id": "313640c4b73100108e2aee90ee11a9b5",
+        "api_name": "Reporting Alias API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "313640c4b73100108e2aee90ee11a9b5",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "3418e25f7f120300995cbaf8befa912e": {
+        "api_sys_id": "3418e25f7f120300995cbaf8befa912e",
+        "api_name": "Application Service Internal API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3418e25f7f120300995cbaf8befa912e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "354d4837c7223200b0ea8b3c5c976356": {
+        "api_sys_id": "354d4837c7223200b0ea8b3c5c976356",
+        "api_name": "Interactive Analysis (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "354d4837c7223200b0ea8b3c5c976356",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "37e28cc1e7e3330078d86188d2f6a976": {
+        "api_sys_id": "37e28cc1e7e3330078d86188d2f6a976",
+        "api_name": "Map Page Rest",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "37e28cc1e7e3330078d86188d2f6a976",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "3d4fe0bf0b323200c7ecc71437673a4e": {
+        "api_sys_id": "3d4fe0bf0b323200c7ecc71437673a4e",
+        "api_name": "Predictive Intelligence",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3d4fe0bf0b323200c7ecc71437673a4e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "40f39122c30222002841b63b12d3ae4f": {
+        "api_sys_id": "40f39122c30222002841b63b12d3ae4f",
+        "api_name": "Triggers",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "40f39122c30222002841b63b12d3ae4f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "4724340e878732006db5f127b7cb0b7a": {
+        "api_sys_id": "4724340e878732006db5f127b7cb0b7a",
+        "api_name": "Application service utils API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "4724340e878732006db5f127b7cb0b7a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "47dc3947b760101042a9ef54ce11a989": {
+        "api_sys_id": "47dc3947b760101042a9ef54ce11a989",
+        "api_name": "Initiate Message",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "47dc3947b760101042a9ef54ce11a989",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "49ee39187d5bd300964f9e5f1b7cbbad": {
+        "api_sys_id": "49ee39187d5bd300964f9e5f1b7cbbad",
+        "api_name": "ContextDocURLService",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "49ee39187d5bd300964f9e5f1b7cbbad",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "4c4caafa8f2cb410960c53ac37bdee8e": {
+        "api_sys_id": "4c4caafa8f2cb410960c53ac37bdee8e",
+        "api_name": "CMDB Workspace API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "4c4caafa8f2cb410960c53ac37bdee8e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "4f5a9c0a53221010b2caddeeff7b12b9": {
+        "api_sys_id": "4f5a9c0a53221010b2caddeeff7b12b9",
+        "api_name": "TimeAgo",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "4f5a9c0a53221010b2caddeeff7b12b9",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "527de2e3532111106e33ddeeff7b12e9": {
+        "api_sys_id": "527de2e3532111106e33ddeeff7b12e9",
+        "api_name": "ML Instance Validation",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "527de2e3532111106e33ddeeff7b12e9",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "55672c9a7333230021a044764df6a706": {
+        "api_sys_id": "55672c9a7333230021a044764df6a706",
+        "api_name": "NLU (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "55672c9a7333230021a044764df6a706",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "565abf20c39413003e76741e81d3ae48": {
+        "api_sys_id": "565abf20c39413003e76741e81d3ae48",
+        "api_name": "Application Service",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "565abf20c39413003e76741e81d3ae48",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "5d37b050b7620010afd28c41de11a9e6": {
+        "api_sys_id": "5d37b050b7620010afd28c41de11a9e6",
+        "api_name": "Reporting Table Description API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "5d37b050b7620010afd28c41de11a9e6",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "5f387aa0b32023002bf182c136a8dc1c": {
+        "api_sys_id": "5f387aa0b32023002bf182c136a8dc1c",
+        "api_name": "Contextual Search Actions (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "5f387aa0b32023002bf182c136a8dc1c",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "60350c229f1210100d74d46d842e709d": {
+        "api_sys_id": "60350c229f1210100d74d46d842e709d",
+        "api_name": "branding",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "60350c229f1210100d74d46d842e709d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "60c171d973c30010ee4dd3c72bf6a716": {
+        "api_sys_id": "60c171d973c30010ee4dd3c72bf6a716",
+        "api_name": "CSDM Application Service (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "60c171d973c30010ee4dd3c72bf6a716",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "676c785c7703330065117206d81061cc": {
+        "api_sys_id": "676c785c7703330065117206d81061cc",
+        "api_name": "Workspace Administration",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "676c785c7703330065117206d81061cc",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "68ec639187132200b5bea18dd0e3ec51": {
+        "api_sys_id": "68ec639187132200b5bea18dd0e3ec51",
+        "api_name": "Tracked Config Files",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "68ec639187132200b5bea18dd0e3ec51",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "text/plain,application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "69a90762d7130200f2d224837e6103b3": {
+        "api_sys_id": "69a90762d7130200f2d224837e6103b3",
+        "api_name": "OnCallRotation",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "69a90762d7130200f2d224837e6103b3",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "69e513cb431131106e3f864e3ab8f2f2": {
+        "api_sys_id": "69e513cb431131106e3f864e3ab8f2f2",
+        "api_name": "PAR CoreUI Migration Utils",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "69e513cb431131106e3f864e3ab8f2f2",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "6a5a74871b760110382c43b8b04bcb66": {
+        "api_sys_id": "6a5a74871b760110382c43b8b04bcb66",
+        "api_name": "Slack Bots Config",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6a5a74871b760110382c43b8b04bcb66",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "6de18e62c3429110be13544c1840dd4c": {
+        "api_sys_id": "6de18e62c3429110be13544c1840dd4c",
+        "api_name": "Clone Request Calendar",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6de18e62c3429110be13544c1840dd4c",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "6ec81f8677d801105d57a2059f5a9936": {
+        "api_sys_id": "6ec81f8677d801105d57a2059f5a9936",
+        "api_name": "Get Core UI logo source",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6ec81f8677d801105d57a2059f5a9936",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "6f6715b3771111102db61558ca5a996c": {
+        "api_sys_id": "6f6715b3771111102db61558ca5a996c",
+        "api_name": "FollowNotifications",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6f6715b3771111102db61558ca5a996c",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "7e534526d722220034d145bcce6103fa": {
+        "api_sys_id": "7e534526d722220034d145bcce6103fa",
+        "api_name": "Contextual Search (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "7e534526d722220034d145bcce6103fa",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "82a90c87c7102010408bc8d6f2c260b3": {
+        "api_sys_id": "82a90c87c7102010408bc8d6f2c260b3",
+        "api_name": "Template Spokes Details",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "82a90c87c7102010408bc8d6f2c260b3",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "86719a5dc7e220105a06145bf4c26006": {
+        "api_sys_id": "86719a5dc7e220105a06145bf4c26006",
+        "api_name": "Virtual Agent Design",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "86719a5dc7e220105a06145bf4c26006",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "87045d89770230106407f0ec8e5a9974": {
+        "api_sys_id": "87045d89770230106407f0ec8e5a9974",
+        "api_name": "passwordexclusionlist",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "87045d89770230106407f0ec8e5a9974",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "90b9010773761010ae8dd21efaf6a745": {
+        "api_sys_id": "90b9010773761010ae8dd21efaf6a745",
+        "api_name": "Data Classification",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "90b9010773761010ae8dd21efaf6a745",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "94bafda6cb602300edc0fcd5634c9c2e": {
+        "api_sys_id": "94bafda6cb602300edc0fcd5634c9c2e",
+        "api_name": "Page Inspector",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "94bafda6cb602300edc0fcd5634c9c2e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "95609ba00b73230033cdcdd425673a8b": {
+        "api_sys_id": "95609ba00b73230033cdcdd425673a8b",
+        "api_name": "Stream Attachment Utils API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "95609ba00b73230033cdcdd425673a8b",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "9c43f242c7310110f376a0736cc26073": {
+        "api_sys_id": "9c43f242c7310110f376a0736cc26073",
+        "api_name": "NLQ Api",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "9c43f242c7310110f376a0736cc26073",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "9ce14a843bc300106501cea234efc4fd": {
+        "api_sys_id": "9ce14a843bc300106501cea234efc4fd",
+        "api_name": "Conversation Message Resource",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "9ce14a843bc300106501cea234efc4fd",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "9ef80ef0672203004286c3105685efd8": {
+        "api_sys_id": "9ef80ef0672203004286c3105685efd8",
+        "api_name": "Copy Assessments",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "9ef80ef0672203004286c3105685efd8",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "aabc7e6853003200fa9bd7b08cc5870f": {
+        "api_sys_id": "aabc7e6853003200fa9bd7b08cc5870f",
+        "api_name": "ActivitySubscriptions",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "aabc7e6853003200fa9bd7b08cc5870f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "ad1762623bb033007fef460044efc468": {
+        "api_sys_id": "ad1762623bb033007fef460044efc468",
+        "api_name": "UAAppEngineLicensingService",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ad1762623bb033007fef460044efc468",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "ad9ebe127322101045cadfcd3bf6a735": {
+        "api_sys_id": "ad9ebe127322101045cadfcd3bf6a735",
+        "api_name": "CI Lifecycle Manager",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ad9ebe127322101045cadfcd3bf6a735",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "adf99ef153202110c271ddeeff7b12ff": {
+        "api_sys_id": "adf99ef153202110c271ddeeff7b12ff",
+        "api_name": "OneExtend",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "adf99ef153202110c271ddeeff7b12ff",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "b00bbe1bb72911107fc19e68ee11a91f": {
+        "api_sys_id": "b00bbe1bb72911107fc19e68ee11a91f",
+        "api_name": "Advance Chat Settings",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "b00bbe1bb72911107fc19e68ee11a91f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "b5617ef2b7620010ee0d3177ee11a9cc": {
+        "api_sys_id": "b5617ef2b7620010ee0d3177ee11a9cc",
+        "api_name": "Life Cycle API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "b5617ef2b7620010ee0d3177ee11a9cc",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "ba1ec5280b2132001e684ac3b6673ac4": {
+        "api_sys_id": "ba1ec5280b2132001e684ac3b6673ac4",
+        "api_name": "PA Solution Library",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ba1ec5280b2132001e684ac3b6673ac4",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "bd93a9195300501065f2ddeeff7b1297": {
+        "api_sys_id": "bd93a9195300501065f2ddeeff7b1297",
+        "api_name": "SNHelpService",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "bd93a9195300501065f2ddeeff7b1297",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "bda7c496432621100b7b5586bab8f253": {
+        "api_sys_id": "bda7c496432621100b7b5586bab8f253",
+        "api_name": "Flow Designer AI Recommendations",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "bda7c496432621100b7b5586bab8f253",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "be2cb28393a23200443674aff67ffba6": {
+        "api_sys_id": "be2cb28393a23200443674aff67ffba6",
+        "api_name": "Manual_CI",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "be2cb28393a23200443674aff67ffba6",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "c1981b09db50e01036d3147239961972": {
+        "api_sys_id": "c1981b09db50e01036d3147239961972",
+        "api_name": "ITOM Licensing",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "c1981b09db50e01036d3147239961972",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "c97c4963c33022003b935ad551d3ae00": {
+        "api_sys_id": "c97c4963c33022003b935ad551d3ae00",
+        "api_name": "List Query",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "c97c4963c33022003b935ad551d3ae00",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "cd3df0155f1323006e619c4f2f731367": {
+        "api_sys_id": "cd3df0155f1323006e619c4f2f731367",
+        "api_name": "VA bot uninstall",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "cd3df0155f1323006e619c4f2f731367",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "d2e3f42f9f1102003d5c77a0942e7084": {
+        "api_sys_id": "d2e3f42f9f1102003d5c77a0942e7084",
+        "api_name": "user_role_inheritance",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d2e3f42f9f1102003d5c77a0942e7084",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "d4f4e39e73013010b4766a0c4cf6a774": {
+        "api_sys_id": "d4f4e39e73013010b4766a0c4cf6a774",
+        "api_name": "ImportProgressChecker",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d4f4e39e73013010b4766a0c4cf6a774",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "dc4bc0e37303230010d533083cf6a7ed": {
+        "api_sys_id": "dc4bc0e37303230010d533083cf6a7ed",
+        "api_name": "Syntax Editor",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "dc4bc0e37303230010d533083cf6a7ed",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "dd098a86c7432010580d45ece8c26094": {
+        "api_sys_id": "dd098a86c7432010580d45ece8c26094",
+        "api_name": "ATF Agent",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "dd098a86c7432010580d45ece8c26094",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e04ab482a3313110c38e8b61341e612f": {
+        "api_sys_id": "e04ab482a3313110c38e8b61341e612f",
+        "api_name": "Generative AI Feedback",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e04ab482a3313110c38e8b61341e612f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e36b1b75538223004205ddeeff7b123c": {
+        "api_sys_id": "e36b1b75538223004205ddeeff7b123c",
+        "api_name": "Mobile Studio",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e36b1b75538223004205ddeeff7b123c",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e5089b8b7707330022f7f4d268106184": {
+        "api_sys_id": "e5089b8b7707330022f7f4d268106184",
+        "api_name": "Related List Item Filter",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e5089b8b7707330022f7f4d268106184",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e604ed70c3a392948f3bb523e4013102": {
+        "api_sys_id": "e604ed70c3a392948f3bb523e4013102",
+        "api_name": "Dev PDI Telemetry API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e604ed70c3a392948f3bb523e4013102",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e68a5fcb7707330022f7f4d2681061a2": {
+        "api_sys_id": "e68a5fcb7707330022f7f4d2681061a2",
+        "api_name": "Related List Edit",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e68a5fcb7707330022f7f4d2681061a2",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "efdf7c4567b21010b3d782f45685ef1a": {
+        "api_sys_id": "efdf7c4567b21010b3d782f45685ef1a",
+        "api_name": "AI Search Assist Action (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "efdf7c4567b21010b3d782f45685ef1a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "f51bc3875375101085ecddeeff7b1204": {
+        "api_sys_id": "f51bc3875375101085ecddeeff7b1204",
+        "api_name": "Agent Initiated Message",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "f51bc3875375101085ecddeeff7b1204",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "f532f2b7c78610105b31824d5ec2600a": {
+        "api_sys_id": "f532f2b7c78610105b31824d5ec2600a",
+        "api_name": "MID Rest Insert API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "f532f2b7c78610105b31824d5ec2600a",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "f8f0abda9f0232004db75ecec32e7027": {
+        "api_sys_id": "f8f0abda9f0232004db75ecec32e7027",
+        "api_name": "SaBusinessService",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "f8f0abda9f0232004db75ecec32e7027",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "ff484d407733101044703036971061d3": {
+        "api_sys_id": "ff484d407733101044703036971061d3",
+        "api_name": "AI Search Assist (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ff484d407733101044703036971061d3",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_ace": {
+    "namespace": "sn_ace",
+    "namespace_display": "Admin Experience Framework",
+    "apis": {
+      "090c5ee353721110c733ddeeff7b1299": {
+        "api_sys_id": "090c5ee353721110c733ddeeff7b1299",
+        "api_name": "ACE Contents",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "090c5ee353721110c733ddeeff7b1299",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_pipeline": {
+    "namespace": "sn_pipeline",
+    "namespace_display": "Pipeline",
+    "apis": {
+      "0a6e31f2b72030100290b9708e11a980": {
+        "api_sys_id": "0a6e31f2b72030100290b9708e11a980",
+        "api_name": "Pipeline API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "0a6e31f2b72030100290b9708e11a980",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "64c5c738c7ba3010408bc8d6f2c2609d": {
+        "api_sys_id": "64c5c738c7ba3010408bc8d6f2c2609d",
+        "api_name": "Authorization",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "64c5c738c7ba3010408bc8d6f2c2609d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_role_builder": {
+    "namespace": "sn_role_builder",
+    "namespace_display": "AES Role Builder",
+    "apis": {
+      "126d91aa53923010fe92ddeeff7b126f": {
+        "api_sys_id": "126d91aa53923010fe92ddeeff7b126f",
+        "api_name": "AES Role Builder Application API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "126d91aa53923010fe92ddeeff7b126f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_flow_diagram": {
+    "namespace": "sn_flow_diagram",
+    "namespace_display": "Flow Diagramming",
+    "apis": {
+      "1275e141dd763010f87742fe561ce935": {
+        "api_sys_id": "1275e141dd763010f87742fe561ce935",
+        "api_name": "Flow Diagramming API(Internal only)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "1275e141dd763010f87742fe561ce935",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_oe_sfs": {
+    "namespace": "sn_oe_sfs",
+    "namespace_display": "Omni-Experience Standard Feature Set",
+    "apis": {
+      "133272235bd22110e4334bbca881c7e7": {
+        "api_sys_id": "133272235bd22110e4334bbca881c7e7",
+        "api_name": "Sidebar Teams Permission API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "133272235bd22110e4334bbca881c7e7",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "142ab96953f211104c19ddeeff7b124c": {
+        "api_sys_id": "142ab96953f211104c19ddeeff7b124c",
+        "api_name": "Encode/Decode Base64",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "142ab96953f211104c19ddeeff7b124c",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "45d58e77775d0110e6330ea24b5a9904": {
+        "api_sys_id": "45d58e77775d0110e6330ea24b5a9904",
+        "api_name": "Collaboration Chat Teams Processor",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "45d58e77775d0110e6330ea24b5a9904",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "5b18e8b2c3022110bf30c265cb40ddc8": {
+        "api_sys_id": "5b18e8b2c3022110bf30c265cb40ddc8",
+        "api_name": "Install Bot",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "5b18e8b2c3022110bf30c265cb40ddc8",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "d8b7652f537211104c19ddeeff7b1221": {
+        "api_sys_id": "d8b7652f537211104c19ddeeff7b1221",
+        "api_name": "bot_override",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d8b7652f537211104c19ddeeff7b1221",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_pdf_table_bldr": {
+    "namespace": "sn_pdf_table_bldr",
+    "namespace_display": "PDF Extractor",
+    "apis": {
+      "16652f5b97e415108843f73ef053af22": {
+        "api_sys_id": "16652f5b97e415108843f73ef053af22",
+        "api_name": "PDF to Table API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "16652f5b97e415108843f73ef053af22",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_sow_chg": {
+    "namespace": "sn_sow_chg",
+    "namespace_display": "Change Management for Service Operations Workspace",
+    "apis": {
+      "17c918c723f33010b8f7dc1756bf650d": {
+        "api_sys_id": "17c918c723f33010b8f7dc1756bf650d",
+        "api_name": "SOW Change Creation Page",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "17c918c723f33010b8f7dc1756bf650d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "3d876fa953615110532cddeeff7b12bb": {
+        "api_sys_id": "3d876fa953615110532cddeeff7b12bb",
+        "api_name": "SOW Change Utils",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3d876fa953615110532cddeeff7b12bb",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "6b18dfbe0b4d1110c85e8a8db777b25d": {
+        "api_sys_id": "6b18dfbe0b4d1110c85e8a8db777b25d",
+        "api_name": "Conflict Calendar",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6b18dfbe0b4d1110c85e8a8db777b25d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "bddfaeca53801110843addeeff7b1266": {
+        "api_sys_id": "bddfaeca53801110843addeeff7b1266",
+        "api_name": "Scheduling Assistant",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "bddfaeca53801110843addeeff7b1266",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_docker_spoke": {
+    "namespace": "sn_docker_spoke",
+    "namespace_display": "Docker Spoke",
+    "apis": {
+      "1ac417fe1bfcf0103cbb8404604bcb95": {
+        "api_sys_id": "1ac417fe1bfcf0103cbb8404604bcb95",
+        "api_name": "Docker Webhook",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "1ac417fe1bfcf0103cbb8404604bcb95",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_portal_starte_0": {
+    "namespace": "sn_portal_starte_0",
+    "namespace_display": "AES Portal UI Template",
+    "apis": {
+      "2151a99e5bb12010fb2a210bb881c723": {
+        "api_sys_id": "2151a99e5bb12010fb2a210bb881c723",
+        "api_name": "Portal Starter Experience",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "2151a99e5bb12010fb2a210bb881c723",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_chg_soc": {
+    "namespace": "sn_chg_soc",
+    "namespace_display": "Change Management - Change Schedule",
+    "apis": {
+      "3115d45f67020300b410afa00585ef87": {
+        "api_sys_id": "3115d45f67020300b410afa00585ef87",
+        "api_name": "Change Schedule (Internal)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3115d45f67020300b410afa00585ef87",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_table_builder": {
+    "namespace": "sn_table_builder",
+    "namespace_display": "Table Builder",
+    "apis": {
+      "32b0494077e6811031e3b3c64b5a9989": {
+        "api_sys_id": "32b0494077e6811031e3b3c64b5a9989",
+        "api_name": "Table Builder Flows integration",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "32b0494077e6811031e3b3c64b5a9989",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "72cd338e73f110107419c907fbf6a730": {
+        "api_sys_id": "72cd338e73f110107419c907fbf6a730",
+        "api_name": "Table Builder Application",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "72cd338e73f110107419c907fbf6a730",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_mab_api": {
+    "namespace": "sn_mab_api",
+    "namespace_display": "Mobile App Builder API",
+    "apis": {
+      "3512bd93c7c12010100f2f3bf4c26049": {
+        "api_sys_id": "3512bd93c7c12010100f2f3bf4c26049",
+        "api_name": "Mobile App Builder API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3512bd93c7c12010100f2f3bf4c26049",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_app_eng_studio": {
+    "namespace": "sn_app_eng_studio",
+    "namespace_display": "App Engine Studio",
+    "apis": {
+      "37cc9e39c3202010a9f5e548fa40ddef": {
+        "api_sys_id": "37cc9e39c3202010a9f5e548fa40ddef",
+        "api_name": "Generic API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "37cc9e39c3202010a9f5e548fa40ddef",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "46b47a07530150100f29ddeeff7b12e8": {
+        "api_sys_id": "46b47a07530150100f29ddeeff7b12e8",
+        "api_name": "App Engine Studio Template Category API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "46b47a07530150100f29ddeeff7b12e8",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "47ad9384c7231010408bc8d6f2c260ef": {
+        "api_sys_id": "47ad9384c7231010408bc8d6f2c260ef",
+        "api_name": "App Engine Studio Resources Content API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "47ad9384c7231010408bc8d6f2c260ef",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "4c41d3287700001001fb4311a81061ae": {
+        "api_sys_id": "4c41d3287700001001fb4311a81061ae",
+        "api_name": "App Engine Studio Applications API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "4c41d3287700001001fb4311a81061ae",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "7b27f0e453da20100f29ddeeff7b12bc": {
+        "api_sys_id": "7b27f0e453da20100f29ddeeff7b12bc",
+        "api_name": "App Engine Studio Templates API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "7b27f0e453da20100f29ddeeff7b12bc",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "da39bfc3c7300110408bc8d6f2c2606a": {
+        "api_sys_id": "da39bfc3c7300110408bc8d6f2c2606a",
+        "api_name": "App Engine Studio User Intake",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "da39bfc3c7300110408bc8d6f2c2606a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "f9f715260f7f1010f23ff722ff767e29": {
+        "api_sys_id": "f9f715260f7f1010f23ff722ff767e29",
+        "api_name": "App Engine Studio Plugin Activations",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "f9f715260f7f1010f23ff722ff767e29",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_collab_request": {
+    "namespace": "sn_collab_request",
+    "namespace_display": "Collaboration Request",
+    "apis": {
+      "3902b84453b360100f29ddeeff7b125e": {
+        "api_sys_id": "3902b84453b360100f29ddeeff7b125e",
+        "api_name": "Collab Request Permissions API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3902b84453b360100f29ddeeff7b125e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "3daab4b5532320100f29ddeeff7b128a": {
+        "api_sys_id": "3daab4b5532320100f29ddeeff7b128a",
+        "api_name": "Collab Request Users and Groups API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3daab4b5532320100f29ddeeff7b128a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "6adeae39c3013010a9f5e548fa40dd4e": {
+        "api_sys_id": "6adeae39c3013010a9f5e548fa40dd4e",
+        "api_name": "Collaboration Tasks API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6adeae39c3013010a9f5e548fa40dd4e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "afc92814c300301085c091294440ddf2": {
+        "api_sys_id": "afc92814c300301085c091294440ddf2",
+        "api_name": "Application Permissions API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "afc92814c300301085c091294440ddf2",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_gd_guidance": {
+    "namespace": "sn_gd_guidance",
+    "namespace_display": "Guided Decisions - Guidance",
+    "apis": {
+      "3bcffc6677c81010d7159b71a91061df": {
+        "api_sys_id": "3bcffc6677c81010d7159b71a91061df",
+        "api_name": "Guided Decisions Guidance API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3bcffc6677c81010d7159b71a91061df",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_guided_setup": {
+    "namespace": "sn_guided_setup",
+    "namespace_display": "Guided Setup - Legacy",
+    "apis": {
+      "3ce43d1bff220200b18affffffffff55": {
+        "api_sys_id": "3ce43d1bff220200b18affffffffff55",
+        "api_name": "Guided Setup API (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3ce43d1bff220200b18affffffffff55",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_cmdb_ws": {
+    "namespace": "sn_cmdb_ws",
+    "namespace_display": "CMDB Workspace",
+    "apis": {
+      "3ff417b78f3f2010960c53ac37bdeefb": {
+        "api_sys_id": "3ff417b78f3f2010960c53ac37bdeefb",
+        "api_name": "CMDB Workspace API (scoped)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "3ff417b78f3f2010960c53ac37bdeefb",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_uibtk_api": {
+    "namespace": "sn_uibtk_api",
+    "namespace_display": "@devsnc/uibtk-api",
+    "apis": {
+      "474b404710361110f87795d93c60dd8e": {
+        "api_sys_id": "474b404710361110f87795d93c60dd8e",
+        "api_name": "BuilderToolkit",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "474b404710361110f87795d93c60dd8e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_workflow_studio": {
+    "namespace": "sn_workflow_studio",
+    "namespace_display": "Workflow Studio",
+    "apis": {
+      "47c15a95432931101188f114cfb8f2cd": {
+        "api_sys_id": "47c15a95432931101188f114cfb8f2cd",
+        "api_name": "Workflow Studio API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "47c15a95432931101188f114cfb8f2cd",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_g_app_creator": {
+    "namespace": "sn_g_app_creator",
+    "namespace_display": "Guided Application Creator",
+    "apis": {
+      "54bdb9a37732230001fb4311a8106127": {
+        "api_sys_id": "54bdb9a37732230001fb4311a8106127",
+        "api_name": "Guided App Creator API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "54bdb9a37732230001fb4311a8106127",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_par_mig_center": {
+    "namespace": "sn_par_mig_center",
+    "namespace_display": "sn-app-par-coreui-migration-center",
+    "apis": {
+      "572fa9d4a31531108d80ad2f241e6172": {
+        "api_sys_id": "572fa9d4a31531108d80ad2f241e6172",
+        "api_name": "PAR CoreUI Migration",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "572fa9d4a31531108d80ad2f241e6172",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_workspace_sta_0": {
+    "namespace": "sn_workspace_sta_0",
+    "namespace_display": "AES Workspace UI Template",
+    "apis": {
+      "57ac99e85b462010fb2a210bb881c7df": {
+        "api_sys_id": "57ac99e85b462010fb2a210bb881c7df",
+        "api_name": "Workspace Starter Experience",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "57ac99e85b462010fb2a210bb881c7df",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_chg_model_ui": {
+    "namespace": "sn_chg_model_ui",
+    "namespace_display": "Change Management - Change Models Landing",
+    "apis": {
+      "5af68855535f10100999ddeeff7b1288": {
+        "api_sys_id": "5af68855535f10100999ddeeff7b1288",
+        "api_name": "Change Models Landing (Internal)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "5af68855535f10100999ddeeff7b1288",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_chg_rest": {
+    "namespace": "sn_chg_rest",
+    "namespace_display": "Change Management - REST API",
+    "apis": {
+      "5dbc8bd75303130096c3ddeeff7b12e4": {
+        "api_sys_id": "5dbc8bd75303130096c3ddeeff7b12e4",
+        "api_name": "Change Management",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "5dbc8bd75303130096c3ddeeff7b12e4",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_publications": {
+    "namespace": "sn_publications",
+    "namespace_display": "Targeted Communications",
+    "apis": {
+      "61dbc5bf87e30300d99a8467a7cb0b85": {
+        "api_sys_id": "61dbc5bf87e30300d99a8467a7cb0b85",
+        "api_name": "Recipients list REST API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "61dbc5bf87e30300d99a8467a7cb0b85",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_mobile_card_bui": {
+    "namespace": "sn_mobile_card_bui",
+    "namespace_display": "Mobile Card Builder",
+    "apis": {
+      "63d8b7c573c51010a59b4c5353f6a737": {
+        "api_sys_id": "63d8b7c573c51010a59b4c5353f6a737",
+        "api_name": "Mobile Card Builder API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "63d8b7c573c51010a59b4c5353f6a737",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_devstudio": {
+    "namespace": "sn_devstudio",
+    "namespace_display": "Studio",
+    "apis": {
+      "6518cdb6535100101dccddeeff7b1214": {
+        "api_sys_id": "6518cdb6535100101dccddeeff7b1214",
+        "api_name": "WizardIntercept",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6518cdb6535100101dccddeeff7b1214",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "842e289137031200612747efbe41f1ce": {
+        "api_sys_id": "842e289137031200612747efbe41f1ce",
+        "api_name": "Users",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "842e289137031200612747efbe41f1ce",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "b1edafaf37131200612747efbe41f104": {
+        "api_sys_id": "b1edafaf37131200612747efbe41f104",
+        "api_name": "System",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "b1edafaf37131200612747efbe41f104",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "ea927d7237930200612747efbe41f13a": {
+        "api_sys_id": "ea927d7237930200612747efbe41f13a",
+        "api_name": "VCS",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ea927d7237930200612747efbe41f13a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_appsee_par": {
+    "namespace": "sn_appsee_par",
+    "namespace_display": "User Experience Analytics PAR Integration",
+    "apis": {
+      "66e24f2353a24110acb7ddeeff7b1268": {
+        "api_sys_id": "66e24f2353a24110acb7ddeeff7b1268",
+        "api_name": "User Experience Analytics App Settings A",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "66e24f2353a24110acb7ddeeff7b1268",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_ads_setup": {
+    "namespace": "sn_ads_setup",
+    "namespace_display": "Guided Setup",
+    "apis": {
+      "6db6b2ab53444110f54fddeeff7b1232": {
+        "api_sys_id": "6db6b2ab53444110f54fddeeff7b1232",
+        "api_name": "SNHelpSetupBuilderService",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "6db6b2ab53444110f54fddeeff7b1232",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "9fb44064773230106ee492b01e5a9991": {
+        "api_sys_id": "9fb44064773230106ee492b01e5a9991",
+        "api_name": "SNHelpSetupPlayerService",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "9fb44064773230106ee492b01e5a9991",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_cs_builder": {
+    "namespace": "sn_cs_builder",
+    "namespace_display": "Conversation Builder",
+    "apis": {
+      "75543606935e02108dbf85abd1891879": {
+        "api_sys_id": "75543606935e02108dbf85abd1891879",
+        "api_name": "VA Designer Config",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "75543606935e02108dbf85abd1891879",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_table_bldr_wzd": {
+    "namespace": "sn_table_bldr_wzd",
+    "namespace_display": "AES Table Builder Wizard",
+    "apis": {
+      "7a088303770d011066cfa9ff9a5a99b2": {
+        "api_sys_id": "7a088303770d011066cfa9ff9a5a99b2",
+        "api_name": "Table Wizard",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "7a088303770d011066cfa9ff9a5a99b2",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_sow_itsm_common": {
+    "namespace": "sn_sow_itsm_common",
+    "namespace_display": "Service Operations Workspace ITSM Common",
+    "apis": {
+      "7c4614e4737d301045216238edf6a755": {
+        "api_sys_id": "7c4614e4737d301045216238edf6a755",
+        "api_name": "SOW Record",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "7c4614e4737d301045216238edf6a755",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e5187e2f53333010532cddeeff7b1283": {
+        "api_sys_id": "e5187e2f53333010532cddeeff7b1283",
+        "api_name": "Task CMDB (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e5187e2f53333010532cddeeff7b1283",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_appclient": {
+    "namespace": "sn_appclient",
+    "namespace_display": "Scoped App Client",
+    "apis": {
+      "7ea1fc5f9770d1104b593f0e6253af99": {
+        "api_sys_id": "7ea1fc5f9770d1104b593f0e6253af99",
+        "api_name": "AppManager(Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "7ea1fc5f9770d1104b593f0e6253af99",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_schedule_pages": {
+    "namespace": "sn_schedule_pages",
+    "namespace_display": "Schedule Pages",
+    "apis": {
+      "81e45c800b833200ecfd818393673a2e": {
+        "api_sys_id": "81e45c800b833200ecfd818393673a2e",
+        "api_name": "Schedule Page API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "81e45c800b833200ecfd818393673a2e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_templated_snip": {
+    "namespace": "sn_templated_snip",
+    "namespace_display": "Templated Snippets",
+    "apis": {
+      "8245cad20f001010dff70c3635767eca": {
+        "api_sys_id": "8245cad20f001010dff70c3635767eca",
+        "api_name": "Response templates",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "8245cad20f001010dff70c3635767eca",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_udc": {
+    "namespace": "sn_udc",
+    "namespace_display": "Unified Developer Core",
+    "apis": {
+      "82c969fba3bdb11018d4189b66fcdaf4": {
+        "api_sys_id": "82c969fba3bdb11018d4189b66fcdaf4",
+        "api_name": "Developer History API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "82c969fba3bdb11018d4189b66fcdaf4",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "d357798053444a107072ddeeff7b1246": {
+        "api_sys_id": "d357798053444a107072ddeeff7b1246",
+        "api_name": "Generic API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d357798053444a107072ddeeff7b1246",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "ebf096a05bdc31109cf872c60a81c769": {
+        "api_sys_id": "ebf096a05bdc31109cf872c60a81c769",
+        "api_name": "UDC File Taxonomy",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ebf096a05bdc31109cf872c60a81c769",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_deploy_pipeline": {
+    "namespace": "sn_deploy_pipeline",
+    "namespace_display": "Deployment Pipeline",
+    "apis": {
+      "84da5f9743c62110fcbf9bf6cab8f2da": {
+        "api_sys_id": "84da5f9743c62110fcbf9bf6cab8f2da",
+        "api_name": "Scheduled Deployment",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "84da5f9743c62110fcbf9bf6cab8f2da",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "9d52207653223010b846ddeeff7b12f3": {
+        "api_sys_id": "9d52207653223010b846ddeeff7b12f3",
+        "api_name": "Deployment Pipeline API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "9d52207653223010b846ddeeff7b12f3",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "a2347dc25f212110f082532aca73132e": {
+        "api_sys_id": "a2347dc25f212110f082532aca73132e",
+        "api_name": "Deployment Pipeline Admin API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "a2347dc25f212110f082532aca73132e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_km_portal": {
+    "namespace": "sn_km_portal",
+    "namespace_display": "Knowledge Management - Service Portal",
+    "apis": {
+      "8ad394c8db03220099f93691f0b8f584": {
+        "api_sys_id": "8ad394c8db03220099f93691f0b8f584",
+        "api_name": "Knowledge",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "8ad394c8db03220099f93691f0b8f584",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_wn": {
+    "namespace": "sn_wn",
+    "namespace_display": "Whats New Framework Core",
+    "apis": {
+      "8f25234477703110878cd30e5b5a994c": {
+        "api_sys_id": "8f25234477703110878cd30e5b5a994c",
+        "api_name": "Whats New",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "8f25234477703110878cd30e5b5a994c",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_admin_center": {
+    "namespace": "sn_admin_center",
+    "namespace_display": "Admin Center",
+    "apis": {
+      "93683ba5b71701109cfe23508e11a91f": {
+        "api_sys_id": "93683ba5b71701109cfe23508e11a91f",
+        "api_name": "Admin Center API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "93683ba5b71701109cfe23508e11a91f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_codesearch": {
+    "namespace": "sn_codesearch",
+    "namespace_display": "Code Search",
+    "apis": {
+      "939d2ac3d7220200b6bddb0c82520377": {
+        "api_sys_id": "939d2ac3d7220200b6bddb0c82520377",
+        "api_name": "Code Search",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "939d2ac3d7220200b6bddb0c82520377",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_nb_action": {
+    "namespace": "sn_nb_action",
+    "namespace_display": "Recommended Actions",
+    "apis": {
+      "95beed2cc7c71010763e343703c2608d": {
+        "api_sys_id": "95beed2cc7c71010763e343703c2608d",
+        "api_name": "Recommended Action",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "95beed2cc7c71010763e343703c2608d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_bm_client": {
+    "namespace": "sn_bm_client",
+    "namespace_display": "Benchmark Client",
+    "apis": {
+      "986214c16710320097eeff5557415a89": {
+        "api_sys_id": "986214c16710320097eeff5557415a89",
+        "api_name": "Benchmark Client API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "986214c16710320097eeff5557415a89",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_km_api": {
+    "namespace": "sn_km_api",
+    "namespace_display": "Knowledge API",
+    "apis": {
+      "98808853b7120010dc250bedce11a99a": {
+        "api_sys_id": "98808853b7120010dc250bedce11a99a",
+        "api_name": "Knowledge Management REST API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "98808853b7120010dc250bedce11a99a",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "now_vis_extensions": {
+    "namespace": "now_vis_extensions",
+    "namespace_display": "now-visualization-extensions",
+    "apis": {
+      "98e7e660c3a02110cf33ad413b40dda8": {
+        "api_sys_id": "98e7e660c3a02110cf33ad413b40dda8",
+        "api_name": "Geomap Rest API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "98e7e660c3a02110cf33ad413b40dda8",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_sow_on_call": {
+    "namespace": "sn_sow_on_call",
+    "namespace_display": "On Call Scheduling for Service Operations Workspace",
+    "apis": {
+      "999a9a18536230100999ddeeff7b12a4": {
+        "api_sys_id": "999a9a18536230100999ddeeff7b12a4",
+        "api_name": "OnCallShifts",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "999a9a18536230100999ddeeff7b12a4",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_slm_timer": {
+    "namespace": "sn_slm_timer",
+    "namespace_display": "Service Level Management - SLA Timer Config API",
+    "apis": {
+      "a3d5e8ba57530010a3933da73d94f9e3": {
+        "api_sys_id": "a3d5e8ba57530010a3933da73d94f9e3",
+        "api_name": "SLA Timer Config API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "a3d5e8ba57530010a3933da73d94f9e3",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_aes_notificatio": {
+    "namespace": "sn_aes_notificatio",
+    "namespace_display": "AES Notification Builder Component",
+    "apis": {
+      "a756df55b7a5c1100290b5208e11a9d3": {
+        "api_sys_id": "a756df55b7a5c1100290b5208e11a9d3",
+        "api_name": "Notification Builder Recipients API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "a756df55b7a5c1100290b5208e11a9d3",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "a8a3845253f10110b846ddeeff7b1216": {
+        "api_sys_id": "a8a3845253f10110b846ddeeff7b1216",
+        "api_name": "Notification Builder Tables API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "a8a3845253f10110b846ddeeff7b1216",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "c87046e8b71909100290b5208e11a95f": {
+        "api_sys_id": "c87046e8b71909100290b5208e11a95f",
+        "api_name": "Notification Builder Notifications API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "c87046e8b71909100290b5208e11a95f",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_nowassist_admin": {
+    "namespace": "sn_nowassist_admin",
+    "namespace_display": "Now Assist Admin Console",
+    "apis": {
+      "af97fa0d432031106b5f90cfd7b8f2dd": {
+        "api_sys_id": "af97fa0d432031106b5f90cfd7b8f2dd",
+        "api_name": "Now Assist Admin Console API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "af97fa0d432031106b5f90cfd7b8f2dd",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_prfrd_tables": {
+    "namespace": "sn_prfrd_tables",
+    "namespace_display": "Preferred tables",
+    "apis": {
+      "b14d651e77a2511031e3b3c64b5a99f8": {
+        "api_sys_id": "b14d651e77a2511031e3b3c64b5a99f8",
+        "api_name": "Preferred Tables API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "b14d651e77a2511031e3b3c64b5a99f8",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_sc": {
+    "namespace": "sn_sc",
+    "namespace_display": "Service Catalog REST API",
+    "apis": {
+      "b4558e83c3a302006f333b0ac3d3ae8e": {
+        "api_sys_id": "b4558e83c3a302006f333b0ac3d3ae8e",
+        "api_name": "Service Catalog API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "b4558e83c3a302006f333b0ac3d3ae8e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_par_filter_conf": {
+    "namespace": "sn_par_filter_conf",
+    "namespace_display": "sn-par-filter-config-panel",
+    "apis": {
+      "bf0ee3e4e6de42adb29a9b9b5e178b66": {
+        "api_sys_id": "bf0ee3e4e6de42adb29a9b9b5e178b66",
+        "api_name": "Filters hierarchy",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "bf0ee3e4e6de42adb29a9b9b5e178b66",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_par_sche_export": {
+    "namespace": "sn_par_sche_export",
+    "namespace_display": "sn-app-par-components-scheduled-export",
+    "apis": {
+      "c3faf7c8536a11107c19ddeeff7b124d": {
+        "api_sys_id": "c3faf7c8536a11107c19ddeeff7b124d",
+        "api_name": "PAR Scheduled Export",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "c3faf7c8536a11107c19ddeeff7b124d",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_ex_sp": {
+    "namespace": "sn_ex_sp",
+    "namespace_display": "Employee Center",
+    "apis": {
+      "c540a8a0777f2110fedf8bb7cb5a9990": {
+        "api_sys_id": "c540a8a0777f2110fedf8bb7cb5a9990",
+        "api_name": "Recent Favorites API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "c540a8a0777f2110fedf8bb7cb5a9990",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "fa58ef11eb50fd507f419f671352282e": {
+        "api_sys_id": "fa58ef11eb50fd507f419f671352282e",
+        "api_name": "Approvals",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "fa58ef11eb50fd507f419f671352282e",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_ml_ui": {
+    "namespace": "sn_ml_ui",
+    "namespace_display": "ML UI",
+    "apis": {
+      "c6facb4553103300d1dcddeeff7b1287": {
+        "api_sys_id": "c6facb4553103300d1dcddeeff7b1287",
+        "api_name": "ML UI",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "c6facb4553103300d1dcddeeff7b1287",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_ci_gs_content": {
+    "namespace": "sn_ci_gs_content",
+    "namespace_display": "CI Guided Setup",
+    "apis": {
+      "cac9a47253221010af5addeeff7b122a": {
+        "api_sys_id": "cac9a47253221010af5addeeff7b122a",
+        "api_name": "Guided Setup Config API ",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "cac9a47253221010af5addeeff7b122a",
+            "version": "v1",
+            "consumes": "application/json",
+            "produces": "application/json",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_change_cab": {
+    "namespace": "sn_change_cab",
+    "namespace_display": "Change Management - CAB Workbench",
+    "apis": {
+      "cf65d305eb10220034d1eeea1206fe55": {
+        "api_sys_id": "cf65d305eb10220034d1eeea1206fe55",
+        "api_name": "CAB Workbench (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "cf65d305eb10220034d1eeea1206fe55",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_generic_collect": {
+    "namespace": "sn_generic_collect",
+    "namespace_display": "Generic Collection Framework",
+    "apis": {
+      "d15daae30f33001058e6ac5397767efd": {
+        "api_sys_id": "d15daae30f33001058e6ac5397767efd",
+        "api_name": "UA GCF",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d15daae30f33001058e6ac5397767efd",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_decision_table": {
+    "namespace": "sn_decision_table",
+    "namespace_display": "Decision Table Builder",
+    "apis": {
+      "d5498f77c3633010d4437f9ec840dd67": {
+        "api_sys_id": "d5498f77c3633010d4437f9ec840dd67",
+        "api_name": "Generic API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d5498f77c3633010d4437f9ec840dd67",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_config_hub": {
+    "namespace": "sn_config_hub",
+    "namespace_display": "Configuration Hub",
+    "apis": {
+      "d68a7cb5eb9221109cfedf3c03522847": {
+        "api_sys_id": "d68a7cb5eb9221109cfedf3c03522847",
+        "api_name": "Configuration Hub API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "d68a7cb5eb9221109cfedf3c03522847",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_instance_clone": {
+    "namespace": "sn_instance_clone",
+    "namespace_display": "Clone Admin Console",
+    "apis": {
+      "e5587697ebfc6110da1861c59c522838": {
+        "api_sys_id": "e5587697ebfc6110da1861c59c522838",
+        "api_name": "Instance Clone API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e5587697ebfc6110da1861c59c522838",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "e70cb20807312110fda37a76fed3002b": {
+        "api_sys_id": "e70cb20807312110fda37a76fed3002b",
+        "api_name": "Profile Config Count API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "e70cb20807312110fda37a76fed3002b",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "sn_nlu_workbench": {
+    "namespace": "sn_nlu_workbench",
+    "namespace_display": "NLU Workbench - Advanced Features",
+    "apis": {
+      "ea82488673402010e6b632e954f6a7ca": {
+        "api_sys_id": "ea82488673402010e6b632e954f6a7ca",
+        "api_name": "NLU Advanced (Internal API)",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "ea82488673402010e6b632e954f6a7ca",
+            "version": "v1",
+            "consumes": "application/json,application/xml,text/xml",
+            "produces": "application/json,application/xml,text/xml",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  },
+  "now": {
+    "namespace": "now",
+    "namespace_display": "Now Platform",
+    "apis": {
+      "Table API": {
+        "api_sys_id": "Table API",
+        "api_name": "Table API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "Table API",
+            "version": "v1",
+            "consumes": "",
+            "produces": "",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "Attachment API": {
+        "api_sys_id": "Attachment API",
+        "api_name": "Attachment API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "Attachment API",
+            "version": "v1",
+            "consumes": "",
+            "produces": "",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "Aggregate API": {
+        "api_sys_id": "Aggregate API",
+        "api_name": "Aggregate API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "Aggregate API",
+            "version": "v1",
+            "consumes": "",
+            "produces": "",
+            "active": true,
+            "operations": []
+          }
+        }
+      },
+      "Import Set API": {
+        "api_sys_id": "Import Set API",
+        "api_name": "Import Set API",
+        "api_id": "",
+        "base_path": "",
+        "versions": {
+          "v1": {
+            "definition_sys_id": "Import Set API",
+            "version": "v1",
+            "consumes": "",
+            "produces": "",
+            "active": true,
+            "operations": []
+          }
+        }
+      }
+    }
+  }
+}

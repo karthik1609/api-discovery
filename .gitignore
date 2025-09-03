@@ -26,3 +26,7 @@ var/
 # OS
 .DS_Store
 
+# env
+.env
+apis_by_namespace.json
+
