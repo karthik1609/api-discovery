@@ -10,6 +10,7 @@ Requires-Dist: beautifulsoup4>=4.13.5
 Requires-Dist: httpx>=0.28.1
 Requires-Dist: jsonschema>=4.25.1
 Requires-Dist: lxml>=6.0.1
+Requires-Dist: openai>=1.104.2
 Requires-Dist: openapi-spec-validator>=0.7.2
 Requires-Dist: pydantic>=2.11.7
 Requires-Dist: pydantic-settings>=2.10.1

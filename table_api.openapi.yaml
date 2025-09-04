@@ -1,0 +1,339 @@
+openapi: 3.1.0
+info:
+  title: ServiceNow Table API
+  version: 1.0.0
+  description: CRUD operations for ServiceNow tables.
+servers:
+  -
+    url: "https://{instance}.servicenow.com/api"
+    variables:
+      instance:
+        default: instance
+        description: ServiceNow instance name
+tags:
+  -
+    name: Table
+paths:
+  /now/table/{tableName}:
+    get:
+      tags:
+        - Table
+      summary: Retrieve multiple records
+      parameters:
+        -
+          $ref: "#/components/parameters/tableName"
+        -
+          $ref: "#/components/parameters/sysparm_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_exclude_reference_link"
+        -
+          $ref: "#/components/parameters/sysparm_fields"
+        -
+          $ref: "#/components/parameters/sysparm_limit"
+        -
+          $ref: "#/components/parameters/sysparm_no_count"
+        -
+          $ref: "#/components/parameters/sysparm_offset"
+        -
+          $ref: "#/components/parameters/sysparm_query"
+        -
+          $ref: "#/components/parameters/sysparm_query_category"
+        -
+          $ref: "#/components/parameters/sysparm_query_no_domain"
+        -
+          $ref: "#/components/parameters/sysparm_suppress_pagination_header"
+        -
+          $ref: "#/components/parameters/sysparm_view"
+      responses:
+        200:
+          description: Successful retrieval
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResultArray"
+              examples:
+                example:
+                  value:
+                    result:
+                      -
+                        number: PRB0000050
+                        short_description: Switch occasionally drops connections
+                        sys_id: 04ce72c9c0a8016600b5b7f75ac67b5b
+    post:
+      tags:
+        - Table
+      summary: Insert a record
+      parameters:
+        -
+          $ref: "#/components/parameters/tableName"
+        -
+          $ref: "#/components/parameters/sysparm_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_exclude_reference_link"
+        -
+          $ref: "#/components/parameters/sysparm_fields"
+        -
+          $ref: "#/components/parameters/sysparm_input_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_view"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+            example:
+              short_description: Unable to connect to office wifi
+              assignment_group: 287ebd7da9fe198100f92cc8d1d2154e
+              urgency: 2
+              impact: 2
+      responses:
+        201:
+          description: Record created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResultObject"
+        400:
+          description: Bad request
+        404:
+          description: Not found
+  /now/table/{tableName}/{sys_id}:
+    get:
+      tags:
+        - Table
+      summary: Retrieve a record by sys_id
+      parameters:
+        -
+          $ref: "#/components/parameters/tableName"
+        -
+          $ref: "#/components/parameters/sys_id"
+        -
+          $ref: "#/components/parameters/sysparm_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_exclude_reference_link"
+        -
+          $ref: "#/components/parameters/sysparm_fields"
+        -
+          $ref: "#/components/parameters/sysparm_query_no_domain"
+        -
+          $ref: "#/components/parameters/sysparm_view"
+      responses:
+        200:
+          description: Record retrieved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResultObject"
+        404:
+          description: Not found
+    delete:
+      tags:
+        - Table
+      summary: Delete a record
+      parameters:
+        -
+          $ref: "#/components/parameters/tableName"
+        -
+          $ref: "#/components/parameters/sys_id"
+        -
+          $ref: "#/components/parameters/sysparm_query_no_domain"
+      responses:
+        204:
+          description: Record deleted
+    patch:
+      tags:
+        - Table
+      summary: Update a record (partial)
+      parameters:
+        -
+          $ref: "#/components/parameters/tableName"
+        -
+          $ref: "#/components/parameters/sys_id"
+        -
+          $ref: "#/components/parameters/sysparm_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_fields"
+        -
+          $ref: "#/components/parameters/sysparm_input_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_query_no_domain"
+        -
+          $ref: "#/components/parameters/sysparm_view"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      responses:
+        200:
+          description: Record updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResultObject"
+        400:
+          description: Bad request
+        404:
+          description: Not found
+    put:
+      tags:
+        - Table
+      summary: Update a record (full)
+      parameters:
+        -
+          $ref: "#/components/parameters/tableName"
+        -
+          $ref: "#/components/parameters/sys_id"
+        -
+          $ref: "#/components/parameters/sysparm_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_exclude_reference_link"
+        -
+          $ref: "#/components/parameters/sysparm_fields"
+        -
+          $ref: "#/components/parameters/sysparm_input_display_value"
+        -
+          $ref: "#/components/parameters/sysparm_query_no_domain"
+        -
+          $ref: "#/components/parameters/sysparm_view"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      responses:
+        200:
+          description: Record updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResultObject"
+        400:
+          description: Bad request
+        404:
+          description: Not found
+components:
+  parameters:
+    tableName:
+      name: tableName
+      in: path
+      required: true
+      schema:
+        type: string
+      description: Name of the table
+    sys_id:
+      name: sys_id
+      in: path
+      required: true
+      schema:
+        type: string
+      description: Sys_id of the record
+    sysparm_display_value:
+      name: sysparm_display_value
+      in: query
+      schema:
+        type: string
+        enum:
+          - true
+          - false
+          - all
+        default: false
+      description: "Return display values, actual values, or both"
+    sysparm_exclude_reference_link:
+      name: sysparm_exclude_reference_link
+      in: query
+      schema:
+        type: boolean
+        default: false
+      description: Exclude reference links
+    sysparm_fields:
+      name: sysparm_fields
+      in: query
+      schema:
+        type: string
+      description: Comma-separated list of fields to return
+    sysparm_limit:
+      name: sysparm_limit
+      in: query
+      schema:
+        type: integer
+        default: 10000
+      description: Max number of records to return
+    sysparm_no_count:
+      name: sysparm_no_count
+      in: query
+      schema:
+        type: boolean
+        default: false
+      description: Skip count query
+    sysparm_offset:
+      name: sysparm_offset
+      in: query
+      schema:
+        type: integer
+        default: 0
+      description: Starting record index
+    sysparm_query:
+      name: sysparm_query
+      in: query
+      schema:
+        type: string
+      description: Encoded query string
+    sysparm_query_category:
+      name: sysparm_query_category
+      in: query
+      schema:
+        type: string
+      description: Query category name
+    sysparm_query_no_domain:
+      name: sysparm_query_no_domain
+      in: query
+      schema:
+        type: boolean
+        default: false
+      description: Include records outside user's domain
+    sysparm_suppress_pagination_header:
+      name: sysparm_suppress_pagination_header
+      in: query
+      schema:
+        type: boolean
+        default: false
+      description: Suppress Link header in response
+    sysparm_view:
+      name: sysparm_view
+      in: query
+      schema:
+        type: string
+        enum:
+          - desktop
+          - mobile
+          - both
+      description: UI view for rendering data
+    sysparm_input_display_value:
+      name: sysparm_input_display_value
+      in: query
+      schema:
+        type: boolean
+        default: false
+      description: Treat input values as display values
+  schemas:
+    ResultArray:
+      type: object
+      properties:
+        result:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+    ResultObject:
+      type: object
+      properties:
+        result:
+          type: object
+          additionalProperties: true

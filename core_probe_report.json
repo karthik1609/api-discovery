@@ -1,0 +1,32 @@
+{
+  "Table API": {
+    "path": "/api/now/table/sys_user",
+    "present": true,
+    "method": "OPTIONS",
+    "status": 405
+  },
+  "Attachment API": {
+    "path": "/api/now/attachment",
+    "present": true,
+    "method": "OPTIONS",
+    "status": 405
+  },
+  "Aggregate API": {
+    "path": "/api/now/aggregate/sys_user",
+    "present": true,
+    "method": "OPTIONS",
+    "status": 405
+  },
+  "Import Set API": {
+    "path": "/api/now/import",
+    "present": true,
+    "method": "OPTIONS",
+    "status": 405
+  },
+  "GraphQL": {
+    "path": "/api/now/graphql",
+    "present": true,
+    "method": "OPTIONS",
+    "status": 405
+  }
+}
